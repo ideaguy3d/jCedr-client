@@ -1,6 +1,6 @@
 /**
  * Created by JHernandezAlvarado on 2/1/2017.
- */
+ **/
 
 
 (function(){
@@ -22,7 +22,7 @@
             // console.log("token - "+profile.token, "username = "+ profile.username);
         };
 
-        var getProfile = function(){
+        var getProfile = function() {
             return profile;
         };
 

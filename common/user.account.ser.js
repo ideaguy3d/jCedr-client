@@ -16,7 +16,7 @@
             // resistration.registerUser
             registration: $resource(appSettings.serverPath + 'api/account/Register', null,
                 {
-                    'registerUser': {method: 'POST'}
+                    'registerUser': { method: 'POST' }
                 }
             ),
             // login.loginUser

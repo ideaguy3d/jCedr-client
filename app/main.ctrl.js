@@ -36,7 +36,7 @@
                 vm.isLoggedIn = false;
                 vm.message = "{ response.statusText = "+response.statusText + "\r\n}";
                 if(response.data.exceptionMessage) vm.message += " { response.data.exceptionMessage ="
-                    +response.data.exceptionMessage +" } ";
+                    + response.data.exceptionMessage +" } ";
 
                 // the validation errors:
                 if(response.data.modelState) {
